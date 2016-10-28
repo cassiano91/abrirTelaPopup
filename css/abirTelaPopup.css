@@ -1,0 +1,74 @@
+.fundoDlg {
+	background-color: rgba(204, 204, 204, 0.95);
+	height: 100%;
+	left: 0;
+	margin: 0;
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	transition: all 0.15s ease-in-out 0s;
+	width: 100%;
+	z-index: 999999;
+}
+
+.fundoDlg .telaPopupCorpo {
+	background-color: #fff;
+	box-shadow: 0 0 3px 3px #ccc;
+	left: 50%;
+	margin-left: -250px;
+	max-height: 360px;
+	padding: 0 0 41px;
+	position: absolute;
+	top: 50%;
+	transition: all 0.15s ease-in-out 0s;
+	width: 500px;
+}
+
+.fundoDlg .telaPopupCorpo.maximizado {
+	height: 100%;
+	left: 0;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+	max-height: none !important;
+	top: 0;
+	width: 100%;
+}
+
+.fundoDlg .searchfieldCorpo #searchfieldFechar,
+.fundoDlg .telaPopupCorpo #telaPopupFechar {
+	color: rgb(75, 75, 75);
+	cursor: pointer;
+	display: none;
+	font-size: 25px;
+	position: absolute;
+	right: -25px;
+	top: -25px;
+	transition: all 0.15s ease-in-out 0s;
+}
+
+.fundoDlg .searchfieldCorpo #searchfieldFechar:active,
+.fundoDlg .searchfieldCorpo #searchfieldFechar:focus,
+.fundoDlg .searchfieldCorpo #searchfieldFechar:hover,
+.fundoDlg .telaPopupCorpo #telaPopupFechar:active,
+.fundoDlg .telaPopupCorpo #telaPopupFechar:focus,
+.fundoDlg .telaPopupCorpo #telaPopupFechar:hover {
+	text-shadow: 0 0 2px rgb(75, 75, 75);
+}
+
+.fundoDlg .searchfieldCorpo .searchfieldFielset,
+.fundoDlg .telaPopupCorpo .telaPopupFielset {
+	overflow: hidden;
+}
+
+.fundoDlg .searchfieldCorpo .searchfieldFielset .btn,
+.fundoDlg .telaPopupCorpo .telaPopupFielset .btn {
+	background-color: #a9abae;
+	border: 0 none;
+	bottom: 10px;
+	color: white;
+	margin: 0;
+	padding: 5px 20px;
+	position: absolute;
+	right: 20px;
+	width: auto;
+}
