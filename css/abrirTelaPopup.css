@@ -34,7 +34,6 @@
 	width: 100%;
 }
 
-.fundoDlg .searchfieldCorpo #searchfieldFechar,
 .fundoDlg .telaPopupCorpo #telaPopupFechar {
 	color: rgb(75, 75, 75);
 	cursor: pointer;
@@ -46,21 +45,16 @@
 	transition: all 0.15s ease-in-out 0s;
 }
 
-.fundoDlg .searchfieldCorpo #searchfieldFechar:active,
-.fundoDlg .searchfieldCorpo #searchfieldFechar:focus,
-.fundoDlg .searchfieldCorpo #searchfieldFechar:hover,
 .fundoDlg .telaPopupCorpo #telaPopupFechar:active,
 .fundoDlg .telaPopupCorpo #telaPopupFechar:focus,
 .fundoDlg .telaPopupCorpo #telaPopupFechar:hover {
 	text-shadow: 0 0 2px rgb(75, 75, 75);
 }
 
-.fundoDlg .searchfieldCorpo .searchfieldFielset,
 .fundoDlg .telaPopupCorpo .telaPopupFielset {
 	overflow: hidden;
 }
 
-.fundoDlg .searchfieldCorpo .searchfieldFielset .btn,
 .fundoDlg .telaPopupCorpo .telaPopupFielset .btn {
 	background-color: #a9abae;
 	border: 0 none;
