@@ -3,10 +3,30 @@
 	<head>
 		<title>Tela Popup</title>
 		<link rel="stylesheet" href="css/abrirTelaPopup.css" type="text/css" />
-	</head>
-	<body>
 
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="js/abrirTelaPopup.js"></script>
+	</head>
+	<body>
+		<fieldset>
+			<legend>Exemplo 1</legend>
+			<script type="text/javascript">
+				jQuery(document).ready(
+					function($) {
+						var btnExemplo1 = $("button#Exemplo1");
+						btnExemplo1.click(
+							function(event) {
+								abrirTelaPopup({
+									"titulo" : "Exemplo 1: HTML personalizado",
+									"html"   : "<h1>Exemplo 1</h1>"
+								});
+							}
+						);
+					}
+				);
+			</script>
+			<button id="Exemplo1" title="Abrir">Abrir</button>
+		</fieldset>
+
 	</body>
 </html>
